@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="3" passed="3" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2024-04-12T12:45:37 IST" name="Suite" finished-at="2024-04-12T12:47:36 IST" duration-ms="119432">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2024-04-12T12:45:37 IST" name="TestNG" finished-at="2024-04-12T12:47:36 IST" duration-ms="119432">
+      <class name="com.travel_Insurance.testRunner.testRun">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:45:37 IST" name="setUpClass" finished-at="2024-04-12T12:45:39 IST" duration-ms="1975" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@6bb71265]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:45:39 IST" name="setup" finished-at="2024-04-12T12:45:49 IST" duration-ms="10427" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:45:49 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-12T12:46:30 IST" duration-ms="40577" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["storing the details of travel insurance plan details in policy bazaar"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Policy bazaar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:46:30 IST" name="tearDown" finished-at="2024-04-12T12:46:31 IST" duration-ms="1180" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:46:31 IST" name="setup" finished-at="2024-04-12T12:46:39 IST" duration-ms="7588" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:46:39 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-12T12:47:00 IST" duration-ms="21622" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["validating the details of car insurance and capturing email address error"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Policy bazaar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:47:00 IST" name="tearDown" finished-at="2024-04-12T12:47:01 IST" duration-ms="1157" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="setup(java.lang.String)[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:47:01 IST" name="setup" finished-at="2024-04-12T12:47:09 IST" duration-ms="7953" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:47:09 IST" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2024-04-12T12:47:29 IST" duration-ms="19581" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Storing the insurance products menu and health insurance plan details"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Policy bazaar"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:47:29 IST" name="tearDown" finished-at="2024-04-12T12:47:30 IST" duration-ms="1197" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:com.travel_Insurance.testRunner.testRun@72c8e7b]" started-at="2024-04-12T12:47:30 IST" name="tearDownClass" finished-at="2024-04-12T12:47:36 IST" duration-ms="6073" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- com.travel_Insurance.testRunner.testRun -->
+    </test> <!-- TestNG -->
+  </suite> <!-- Suite -->
+</testng-results>
